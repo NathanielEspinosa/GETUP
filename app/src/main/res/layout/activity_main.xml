@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="#f7bb67"
+    android:weightSum="1">
+
+
+<ImageView
+android:layout_width="wrap_content"
+android:layout_height="294dp"
+    android:layout_marginTop="20dp"
+android:src="@mipmap/clock" />
+
+    <TextView
+        android:text="welcome to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-thin"
+        />
+
+    <TextView
+        android:text="getup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GETUP"
+        android:layout_weight="0.05"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_marginTop="5sp"
+        android:fontFamily="sans-serif-light"
+        />
+
+    <Button
+        android:text="s t a r t"
+        android:layout_width="230dp"
+        android:layout_height="85dp"
+        android:id="@+id/button1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        />
+
+</LinearLayout>
+

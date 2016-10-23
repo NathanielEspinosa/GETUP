@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#797a7c"
+        android:weightSum="1">
+
+    <TextView
+        android:text="choose an alarm"
+        android:layout_height="131dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textSize="42sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#f7bb67" />
+
+    <TextView
+            android:text="NORMAL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/normal"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+        <TextView
+            android:text="classic alarm that sounds off at your wake-up time, with snooze if you need it"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/normalDesc"
+            android:layout_weight="0.00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+        <TextView
+            android:text="GRADUAL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Gradual"
+            android:layout_weight="0.00"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+
+        <TextView
+            android:text="gentle alarm that sounds off in intervals leading up to your wake-up time"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gradDesc"
+            android:layout_weight="0.00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+
+        <TextView
+            android:text="RANDOMIZED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Randomized"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+        <TextView
+            android:text="intense alarm that sounds off in random, short bursts multiple times at your wake-up time"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/randDesc"
+            android:layout_weight="0.00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:id="@+id/menu"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:entries="@array/choose_alarm"
+            android:layout_weight="0.11">
+        </Spinner>
+
+        <Button
+            android:text="c o n t i n u e"
+            android:layout_width="249dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:layout_marginTop="50dp"
+            />
+    </LinearLayout>
+</ScrollView>

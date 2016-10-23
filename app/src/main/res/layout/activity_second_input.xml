@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#797a7c"
+    android:weightSum="1">
+
+    <TextView
+        android:text="create schedule"
+        android:layout_height="131dp"
+        android:id="@+id/textView2"
+        android:elevation="0dp"
+        android:layout_width="match_parent"
+        android:textSize="42dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#f7bb67" />
+
+        <TextView
+            android:text="how many minutes does it take you to get ready in the morning?"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_weight="0.00"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:inputType="time"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:id="@+id/TimeReady"
+        android:layout_marginTop="10dp"
+        android:background="#bdbdbd" />
+
+    <TextView
+            android:text="how long does it take you to get to class?"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/GETUP"
+            android:layout_weight="0.07"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#f7bb67"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:inputType="time"
+            android:ems="10"
+            android:layout_gravity="center"
+            android:id="@+id/TimeCommute"
+            android:layout_marginTop="10dp"
+            android:background="#bdbdbd" />
+
+    <Button
+        android:text="c o n t i n u e"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="50dp"
+        />
+
+
+</LinearLayout>

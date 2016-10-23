@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#797a7c">
+
+    <TextView
+        android:text="create schedule"
+        android:layout_height="131dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textSize="42sp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#f7bb67" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="324dp"
+        >
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="316dp"
+            android:columnWidth="15dp"
+            android:columnCount="2"
+            android:rowCount="7"
+            android:verticalSpacing="10dp"
+            android:horizontalSpacing="10dp"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:orientation="horizontal"
+            android:scrollbars="vertical"
+            >
+
+            <TextView
+                android:text="monday"
+                android:id="@+id/Monday"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeMonday"
+                android:layout_marginTop="0dp"
+                android:background="#bdbdbd" />
+            <TextView
+                android:text="tuesday"
+                android:id="@+id/Tuesday"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeTuesday"
+                android:layout_marginTop="20dp"
+                android:background="#bdbdbd" />
+            <TextView
+                android:text="wednesday"
+                android:id="@+id/Wednesday"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeWednsday"
+                android:layout_marginTop="20dp"
+                android:background="#bdbdbd" />
+            <TextView
+                android:text="thursday"
+                android:id="@+id/Thursday"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeThursday"
+                android:layout_marginTop="20dp"
+                android:background="#bdbdbd" />
+            <TextView
+                android:text="friday"
+                android:id="@+id/textView7"
+                android:gravity="center"
+                android:layout_width="85dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeFriday"
+                android:layout_marginTop="20dp"
+                android:background="#bdbdbd" />
+
+            <TextView
+                android:text="saturday"
+                android:id="@+id/Saturday"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeSaturday"
+                android:layout_marginTop="20dp"
+                android:background="#bdbdbd" />
+
+            <TextView
+                android:text="sunday"
+                android:id="@+id/Sunday"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#f7bb67" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:inputType="time"
+                android:ems="10"
+                android:id="@+id/TimeSunday"
+                android:layout_marginTop="20dp"
+                android:background="#bdbdbd" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <Button
+        android:text="c o n t i n u e"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>
